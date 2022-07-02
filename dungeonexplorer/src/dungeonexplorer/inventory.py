@@ -18,8 +18,6 @@ class ArmorType(Enum):
     NECK = 9,
     FINGERS = 10
 
-
-
 class Item:
     def __init__(self, name, description, value, weight):
         self.name = name

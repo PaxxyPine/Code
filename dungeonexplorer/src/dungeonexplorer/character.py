@@ -1,4 +1,5 @@
 from enum import Enum
+from inventory import *
 
 class ArmorSlot(Enum):
     HEAD = 1,
@@ -9,21 +10,25 @@ class ArmorSlot(Enum):
     LEGS = 6,
     FEET = 7,
     LEFT_HAND = 8,
-    RIGHT_HAND = 9,
-    NECK = 10,
-    LEFT_FINGERS = 11,
-    RIGHT_FINGERS = 12
+    NECK = 9,
+    LEFT_FINGERS = 10,
+    RIGHT_FINGERS = 11
 
 class EquippedGear:
     def __init__(self):
-        self.gear = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-    def get(self, slot):
-        return self.gear[slot]
-    #def totalArmor(self):
-        #total = 0
-        #for slot in ArmorSlot:
-            #self.gear[slot].
-
+        self.armor = [Armor() for ii in ArmorSlot]
+        self.weapon = Weapon()
+    def getArmor(self, slot):
+        return self.armor[slot]
+    def getWeapon(self):
+        return self.weapon
+    def equipArmor(self, armor, slot):
+        self.armor[slot] = armor
+    def totalArmor(self):
+        total = 0
+        for slot in ArmorSlot:
+            total += self.armor[slot].armor
+        return total
 
 class Player:
     def __init__(self, hp, armor, speed, cr, cd, atk, elemental):
@@ -47,9 +52,6 @@ class Player:
 
    # def equipFromInventory(self, itemId):
         # 
-
-
-
 
 class Monster:
     def __init__(self, name, description, hp, armor, speed, atk, elemental):
