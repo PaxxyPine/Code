@@ -50,3 +50,16 @@
 
 # Town
 You can buy things, heal, blacksmith, armor, fletcher, cartagrapher
+
+## Items
+(all armor items have chainmail varient)
+* head         solders_helm, athens_helm
+* shoulders    solders_sholders ,spike_shoulders
+* chest        solders_chest, black_hawk, iron_chest
+* gloves       spike_gloves, element_gloves
+* legs         solders_pants, leather_jeans 
+* feet         shoes, boots, runners 
+* left hand  (sheild) powerdash_sheild, spiked_sheild  
+* right hand (wepon)  starter-{balisong, lighter, krambit, great_sword}, spiked_bat 
+* neck         amulets and gems like ruby, amithest, pearl, saphier
+* rings    basic rings 
