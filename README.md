@@ -63,3 +63,5 @@ You can buy things, heal, blacksmith, armor, fletcher, cartagrapher
 * right hand (wepon)  starter-{balisong, lighter, krambit, great_sword}, spiked_bat Pistol_gun
 * neck         amulets and gems like ruby, amithest, pearl, saphier
 * rings    basic rings 
+
+https://medium.com/u2i-blogs/we-made-a-multiplayer-browser-game-in-go-for-fun-242a5990ce29
