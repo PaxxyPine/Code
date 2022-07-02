@@ -1,0 +1,50 @@
+syntax = "proto3";
+
+package dungeonexplorer.gameapi.v1;
+option go_package = "gitub.com/PaxxyPine/Code";
+
+  enum Elements {
+      Elements_NOT_SET = 0;
+      Elements_FIRE = 1;
+      Elements_WIND = 2;
+      Elements_WATER = 3;
+      Elements_WOOD = 4;
+  };
+
+  enum ArmorType {
+      ArmorType_NOT_SET = 0;
+      ArmorType_HELM = 1;
+      ArmorType_SHOULDERS = 2;
+      ArmorType_CHEST = 3;
+      ArmorType_GOVES = 4;
+      ArmorType_BELT = 5;
+      ArmorType_LEGS = 6;
+      ArmorType_BOOTS = 7;
+      ArmorType_HELD = 8;
+      ArmorType_NECK = 9;
+      ArmorType_FINGERS = 10;
+  };
+
+  enum ArmorSlot {
+      ArmorSlot_NOT_SET = 0;
+      ArmorSlot_HEAD = 1;
+      ArmorSlot_SHOULDERS = 2;
+      ArmorSlot_CHEST = 3;
+      ArmorSlot_GLOVES = 4;
+      ArmorSlot_WAIST = 5;
+      ArmorSlot_LEGS = 6;
+      ArmorSlot_FEET = 7;
+      ArmorSlot_LEFT_HAND = 8;
+      ArmorSlot_NECK = 9;
+      ArmorSlot_LEFT_FINGERS = 10;
+      ArmorSlot_RIGHT_FINGERS = 11;
+  };
+
+service GameAPI {
+  rpc GetInfo(GetInfoRequest) returns (GetInfoResponse) {
+    };
+};
+
+  message GetInfoRequest{};
+  message GetInfoResponse{};
+
