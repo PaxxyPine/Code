@@ -60,6 +60,6 @@ You can buy things, heal, blacksmith, armor, fletcher, cartagrapher
 * legs         solders_pants, leather_jeans 
 * feet         shoes, boots, runners 
 * left hand  (sheild) powerdash_sheild, spiked_sheild  
-* right hand (wepon)  starter-{balisong, lighter, krambit, great_sword}, spiked_bat 
+* right hand (wepon)  starter-{balisong, lighter, krambit, great_sword}, spiked_bat Pistol_gun
 * neck         amulets and gems like ruby, amithest, pearl, saphier
 * rings    basic rings 
