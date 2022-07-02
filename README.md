@@ -53,7 +53,7 @@ You can buy things, heal, blacksmith, armor, fletcher, cartagrapher
 
 ## Items
 (all armor items have chainmail varient)
-* head         solders_helm, athens_helm
+* head         solders_helm, athens_helm, Viking_helm
 * shoulders    solders_sholders ,spike_shoulders
 * chest        solders_chest, black_hawk, iron_chest
 * gloves       spike_gloves, element_gloves
