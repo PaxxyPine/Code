@@ -8,7 +8,7 @@ realanswer=int (random ()*100)
 guesscount=0
 while answer!=realanswer:
     answer=input("guess: ")
-    guesscount+=1
+    guesscount+=1 
     if int(answer) > realanswer:
         print ("lower")
     elif int(answer) < realanswer:
