@@ -3,7 +3,7 @@ from random import random, seed
 
 print ("HELLO TRY TO GUESS THE NUMBER 1-100")
 answer=0
-seed (1)
+seed (random())
 realanswer=int (random ()*100)
 guesscount=0
 while answer!=realanswer:
@@ -17,4 +17,8 @@ while answer!=realanswer:
         print ("u got it right!!")
         a=("it took you {} guesses")
         print (a.format (guesscount))
+        if guesscount > 13 :
+            print ("u suck")
+        elif guesscount < 5:
+            print ("u good")
         break
