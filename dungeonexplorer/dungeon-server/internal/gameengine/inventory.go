@@ -1,22 +1,25 @@
 package gameengine
 
-import "github.com/PaxxyPine/Code/proto/gitub.com/PaxxyPine/Code"
+import (
+	"github.com/PaxxyPine/Code/proto/gitub.com/PaxxyPine/Code"
+)
 
-type Item struct {
-	name        string
-	description string
-	value       int
-	weight      int
+type Item interface {
+	Id() int64
+	Name() string
+	Description() string
+	GoldValue() int64
 }
 
-type Weapon struct {
-	damage  int
-	element Code.Elements
-	radius  int
+type Weapon interface {
+	Id() int64
+	Damage() int64
+	Element() Code.Elements
+	Speed() int64
 }
 
-type Armor struct {
-	aClass  int
-	element Code.Elements
-	aType   Code.ArmorType
+type Armor interface {
+	Id() int64
+	Class() int64
+	Type() Code.ArmorType
 }

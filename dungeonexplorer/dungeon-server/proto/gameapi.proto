@@ -11,8 +11,14 @@ option go_package = "gitub.com/PaxxyPine/Code";
       Elements_WOOD = 4;
   };
 
-  enum ArmorType {
-      ArmorType_NOT_SET = 0;
+  enum AttackType {
+    AttackType_NOT_SET = 0;
+    AttackType_MELEE = 1;
+    AttackType_RANGE = 2;
+  };
+
+enum ArmorType {
+  ArmorType_NOT_SET = 0;
       ArmorType_HELM = 1;
       ArmorType_SHOULDERS = 2;
       ArmorType_CHEST = 3;
@@ -20,7 +26,7 @@ option go_package = "gitub.com/PaxxyPine/Code";
       ArmorType_BELT = 5;
       ArmorType_LEGS = 6;
       ArmorType_BOOTS = 7;
-      ArmorType_HELD = 8;
+      ArmorType_HAND_HELD = 8;
       ArmorType_NECK = 9;
       ArmorType_FINGERS = 10;
   };
