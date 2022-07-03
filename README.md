@@ -43,6 +43,8 @@
 * 0 hp is death, lose levels loot, start over beginning of level
 * monsters can "prepare" , where they won't attack but next attack will be a crit and increase defense
 * ranged attacks require prepare after 3x
+* av-Hp begining game for a monster is 20 hp and deals 5-7 damage a hit 
+* players av hp for begining game is 30 dealing 10-15 av
 
 ## cosmetics
 * skins for knives
