@@ -8,22 +8,26 @@ type ClothPants struct {
 	id int64
 }
 
-func (helm *ClothPants) Name() string {
+func (leg *ClothPants) Id() int64 {
+	return leg.id
+}
+
+func (leg *ClothPants) Name() string {
 	return "Cloth Pants"
 }
 
-func (helm *ClothPants) Description() string {
+func (leg *ClothPants) Description() string {
 	return "A raggedy pair of cloth pants"
 }
 
-func (helm *ClothPants) GoldValue() int64 {
+func (leg *ClothPants) GoldValue() int64 {
 	return 3
 }
 
-func (helm *ClothPants) Class() int64 {
+func (leg *ClothPants) Class() int64 {
 	return 1
 }
 
-func (helm *ClothPants) Type() Code.ArmorType {
+func (leg *ClothPants) Type() Code.ArmorType {
 	return Code.ArmorType_ArmorType_LEGS
 }

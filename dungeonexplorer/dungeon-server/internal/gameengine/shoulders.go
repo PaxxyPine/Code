@@ -8,6 +8,10 @@ type ClothShoulders struct {
 	id int64
 }
 
+func (shoulders *ClothShoulders) Id() int64 {
+	return shoulders.id
+}
+
 func (shoulders *ClothShoulders) Name() string {
 	return "Cloth Shoulders"
 }

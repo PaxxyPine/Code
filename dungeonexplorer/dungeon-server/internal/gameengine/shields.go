@@ -8,6 +8,10 @@ type WoodenShield struct {
 	id int64
 }
 
+func (shield *WoodenShield) Id() int64 {
+	return shield.id
+}
+
 func (shield *WoodenShield) Name() string {
 	return "Wooden Shield"
 }

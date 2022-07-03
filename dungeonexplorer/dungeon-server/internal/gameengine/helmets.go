@@ -8,6 +8,10 @@ type ClothHat struct {
 	id int64
 }
 
+func (helm *ClothHat) Id() int64 {
+	return helm.id
+}
+
 func (helm *ClothHat) Name() string {
 	return "Cloth Hat"
 }
