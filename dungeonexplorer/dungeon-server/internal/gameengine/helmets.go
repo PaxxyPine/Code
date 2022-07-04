@@ -97,7 +97,7 @@ func (helm *TopHat) Id() int64 {
 }
 
 func (helm *TopHat) Name() string {
-	return "Top Hat"
+	return "Top Hat "
 }
 
 func (helm *TopHat) Description() string {
@@ -113,5 +113,33 @@ func (helm *TopHat) Class() int64 {
 }
 
 func (helm *TopHat) Type() Code.ArmorType {
+	return Code.ArmorType_ArmorType_HELM
+}
+
+type worriorHelm struct {
+	id int64
+}
+
+func (helm *worriorHelm) Id() int64 {
+	return helm.id
+}
+
+func (helm *worriorHelm) Name() string {
+	return "Worrior helm "
+}
+
+func (helm *worriorHelm) Description() string {
+	return "The gold helm thingy with the red fuzz"
+}
+
+func (helm *worriorHelm) GoldValue() int64 {
+	return 50
+}
+
+func (helm *worriorHelm) Class() int64 {
+	return 4
+}
+
+func (helm *worriorHelm) Type() Code.ArmorType {
 	return Code.ArmorType_ArmorType_HELM
 }
