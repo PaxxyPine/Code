@@ -87,3 +87,57 @@ func (ring *saphireRing) Class() int64 {
 func (ring *saphireRing) Type() Code.ArmorType {
 	return Code.ArmorType_ArmorType_FINGERS
 }
+
+type TopazRing struct {
+	id int64
+}
+
+func (ring *TopazRing) Id() int64 {
+	return shoulders.id
+}
+
+func (ring *TopazRing) Name() string {
+	return "Topaz Ring"
+}
+
+func (ring *TopazRing) Description() string {
+	return "a priceless gem for a priceless ring "
+}
+func (ring *TopazRing) GoldValue() int64 {
+	return 10
+}
+
+func (ring *TopazRing) Class() int64 {
+	return 1
+}
+
+func (ring *TopazRing) Type() Code.ArmorType {
+	return Code.ArmorType_ArmorType_FINGERS
+}
+
+type EmeraldRing struct {
+	id int64
+}
+
+func (ring *EmeraldRing) Id() int64 {
+	return shoulders.id
+}
+
+func (ring *EmeraldRing) Name() string {
+	return "Emerald Ring"
+}
+
+func (ring *EmeraldRing) Description() string {
+	return "a priceless gem for a priceless ring "
+}
+func (ring *EmeraldRing) GoldValue() int64 {
+	return 10
+}
+
+func (ring *EmeraldRing) Class() int64 {
+	return 1
+}
+
+func (ring *EmeraldRing) Type() Code.ArmorType {
+	return Code.ArmorType_ArmorType_FINGERS
+}
