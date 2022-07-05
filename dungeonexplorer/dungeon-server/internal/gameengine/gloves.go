@@ -44,7 +44,7 @@ func (glove *BoxingGloves) Name() string {
 	return "BoxingGloves"
 }
 
-func (glove *ClothGloves) Description() string {
+func (glove *BoxingGloves) Description() string {
 	return "Get in the ring!"
 }
 
