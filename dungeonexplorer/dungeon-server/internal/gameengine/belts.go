@@ -21,11 +21,11 @@ func (belt *ClothBelt) Description() string {
 }
 
 func (belt *ClothBelt) GoldValue() int64 {
-	return 3
+	return 30
 }
 
 func (belt *ClothBelt) Class() int64 {
-	return 1
+	return 2
 }
 
 func (belt *ClothBelt) Type() Code.ArmorType {

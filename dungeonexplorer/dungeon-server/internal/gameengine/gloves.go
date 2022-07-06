@@ -73,7 +73,7 @@ func (glove *spikedGloves) Name() string {
 }
 
 func (glove *spikedGloves) Description() string {
-	return "gloves that are spiked"
+	return "gloves that are spiked. what did you think?"
 }
 
 func (glove *spikedGloves) GoldValue() int64 {
