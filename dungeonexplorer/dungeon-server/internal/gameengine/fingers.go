@@ -9,7 +9,7 @@ type RubyRing struct {
 }
 
 func (ring *RubyRing) Id() int64 {
-	return fingers.id
+	return ring.id
 }
 
 func (ring *RubyRing) Name() string {
@@ -37,7 +37,7 @@ type diamondRing struct {
 }
 
 func (ring *diamondRing) Id() int64 {
-	return fingers.id
+	return ring.id
 }
 
 func (ring *diamondRing) Name() string {
@@ -60,31 +60,31 @@ func (ring *diamondRing) Type() Code.ArmorType {
 	return Code.ArmorType_ArmorType_FINGERS
 }
 
-type saphireRing struct {
+type sapphireRing struct {
 	id int64
 }
 
-func (ring *saphireRing) Id() int64 {
-	return fingers.id
+func (ring *sapphireRing) Id() int64 {
+	return ring.id
 }
 
-func (ring *saphireRing) Name() string {
-	return "Saphire Ring"
+func (ring *sapphireRing) Name() string {
+	return "Sapphire Ring"
 }
 
-func (ring *saphireRing) Description() string {
+func (ring *sapphireRing) Description() string {
 	return "a priceless gem for a priceless ring "
 }
 
-func (ring *saphireRing) GoldValue() int64 {
+func (ring *sapphireRing) GoldValue() int64 {
 	return 10
 }
 
-func (ring *saphireRing) Class() int64 {
+func (ring *sapphireRing) Class() int64 {
 	return 1
 }
 
-func (ring *saphireRing) Type() Code.ArmorType {
+func (ring *sapphireRing) Type() Code.ArmorType {
 	return Code.ArmorType_ArmorType_FINGERS
 }
 
@@ -93,7 +93,7 @@ type TopazRing struct {
 }
 
 func (ring *TopazRing) Id() int64 {
-	return fingers.id
+	return ring.id
 }
 
 func (ring *TopazRing) Name() string {
@@ -120,7 +120,7 @@ type EmeraldRing struct {
 }
 
 func (ring *EmeraldRing) Id() int64 {
-	return fingers.id
+	return ring.id
 }
 
 func (ring *EmeraldRing) Name() string {

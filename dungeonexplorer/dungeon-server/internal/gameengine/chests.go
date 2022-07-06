@@ -25,7 +25,7 @@ func (chest *ClothChest) GoldValue() int64 {
 }
 
 func (chest *ClothChest) Class() int64 {
-	return
+	return 3
 }
 
 func (chest *ClothChest) Type() Code.ArmorType {

@@ -65,7 +65,7 @@ type ShoulderPad struct {
 }
 
 func (shoulders *ShoulderPad) Id() int64 {
-	return ShoulderPad.id
+	return shoulders.id
 }
 
 func (shoulders *ShoulderPad) Name() string {
